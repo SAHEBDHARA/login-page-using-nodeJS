@@ -2,10 +2,14 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-image: url('/picture/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-center-div{
-    padding-top: 10%;
+.center-div{
+    padding-top: 10% !important;
+    color: rgb(255, 255, 255);
 }
 .btn.btn-success{
     padding: .4rem 2em;
@@ -13,4 +17,7 @@ center-div{
 
 form{
     padding: 0.3em;
+}
+#login .title>span{
+    font-size: .8em;
 }
