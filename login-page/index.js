@@ -4,6 +4,10 @@ const bodyparser = require('body-parser')
 const session = require("express-session")
 const {v4:uuid4} =require("uuid");
 const router = require('./router')
+// const mongoose = require('mongoose')
+// require('dotenv').config()
+
+
 
 const app = express();
 
@@ -14,6 +18,9 @@ app.use(bodyparser.urlencoded({extended:true}))
 
 
 app.set('view engine','ejs');
+
+// mongoose.connect('mongodb+srv://loginsection:loginsection@cluster0.qzc4l.mongodb.net/loginDatabase?retryWrites=true&w=majority')
+
 
 
 //load static assets
