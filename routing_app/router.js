@@ -1,8 +1,8 @@
 
-const route = require('color-convert/route')
+
 const express = require('express')
 
-const rout = express.Router()
+const route = express.Router()
 const account = require('./database')
 
 
